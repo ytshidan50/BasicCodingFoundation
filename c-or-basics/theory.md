@@ -4,9 +4,9 @@ icon: blanket
 
 # Theory Part
 
-### Part 1: C Programming Fundamentals
+#### Part 1: C Programming Fundamentals
 
-#### 1.1 The C Language and Compilation
+## 1.1 The C Language and Compilation
 
 Understanding a programming language's core identity and its compilation process is a crucial first step for any developer. This knowledge is foundational to effective debugging, performance optimization, and grasping how human-readable code is ultimately translated into instructions that a machine can execute. The following questions explore these essential concepts.
 
@@ -39,7 +39,7 @@ Understanding a programming language's core identity and its compilation process
 
 With a grasp of how a C program comes to life, we can now turn to the building blocks of the language: its syntax and data types.
 
-#### 1.2 Core Syntax, Data Types, and Operators
+## 1.2 Core Syntax, Data Types, and Operators
 
 The syntax, data types, and operators of a language are its basic grammar. Mastering these elements is the first step toward writing code that is not only functional but also efficient and readable. They provide the rules for defining data and performing operations on it.
 
@@ -93,7 +93,7 @@ The syntax, data types, and operators of a language are its basic grammar. Maste
 
 Understanding how to declare variables and manipulate data naturally leads to the need to control the flow of a program's execution.
 
-#### 1.3 Control Flow: Loops and Conditional Statements
+## 1.3 Control Flow: Loops and Conditional Statements
 
 Control flow structures are the decision-making components of a program. Conditional statements (like `if-else`) and loops allow developers to dictate execution paths based on specific conditions, repeat actions efficiently, and create dynamic, responsive logic rather than having code that only executes line-by-line.
 
@@ -119,7 +119,7 @@ Control flow structures are the decision-making components of a program. Conditi
 
 Once we can control the flow of logic, the next step is to organize that logic into reusable blocks called functions.
 
-#### 1.4 Functions and Program Structure
+## 1.4 Functions and Program Structure
 
 Functions are the primary mechanism for code organization, reusability, and modularity in C. A well-structured program uses functions to break down complex problems into smaller, manageable, and logical units. This approach makes code easier to write, test, and maintain.
 
@@ -146,7 +146,7 @@ Functions are the primary mechanism for code organization, reusability, and modu
 
 This discussion of functions and data passing leads directly to one of the most critical data structures in C: the array.
 
-#### 1.5 Working with Arrays
+## 1.5 Working with Arrays
 
 Arrays are a fundamental data structure for storing and managing collections of related, same-type data. Their role is central to solving a wide range of programming problems that involve processing lists, tables, or other groups of items in a structured manner.
 
@@ -172,7 +172,7 @@ Arrays are a fundamental data structure for storing and managing collections of 
 
 Beyond structuring data, a program must also be able to interact with its environment, which requires tools for input, output, and pre-compilation setup.
 
-#### 1.6 Input/Output and Preprocessing
+## 1.6 Input/Output and Preprocessing
 
 For a program to be interactive and useful, it must be able to communicate with the user and its environment. Preprocessor directives and standard input/output (I/O) functions are the essential tools for this interaction. They allow a program to include external libraries, receive input, display output, and set up its context before compilation even begins.
 

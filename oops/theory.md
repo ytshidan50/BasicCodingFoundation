@@ -4,9 +4,9 @@ icon: blanket
 
 # Theory Part
 
-### Part 2: Object-Oriented Programming (OOPS) with Java
+#### Part 2: Object-Oriented Programming (OOPS) with Java
 
-#### 2.1 Introduction to Java and OOPS
+## 2.1 Introduction to Java and OOPS
 
 Object-Oriented Programming (OOPS) is a powerful paradigm for modeling complex, real-world problems by organizing software design around data, or objects, rather than functions and logic. Java was designed from the ground up with OOPS principles at its core. Its "write once, run anywhere" philosophy, enabled by the Java Virtual Machine (JVM), underscores its significance as a platform-independent language.
 
@@ -29,17 +29,17 @@ Object-Oriented Programming (OOPS) is a powerful paradigm for modeling complex, 
 
 These high-level concepts are built upon a foundation of four key principles, often called the pillars of OOPS.
 
-#### 2.2 The Four Pillars of OOPS
+## 2.2 The Four Pillars of OOPS
 
 The power and elegance of Object-Oriented Programming are derived from four fundamental principles: Encapsulation, Inheritance, Polymorphism, and Abstraction. A thorough understanding of each pillar is essential to writing robust, scalable, and maintainable object-oriented code that is both flexible and secure.
 
-**2.2.1 Encapsulation**
+### **2.2.1 Encapsulation**
 
 Encapsulation is the practice of bundling data (attributes) and the methods that operate on that data into a single unit, or class, while restricting direct access to some of the object's components.
 
 * What is encapsulation? Encapsulation is the mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit. In encapsulation, the variables of a class are hidden from other classes and can be accessed only through the methods of their current class. This is also known as data hiding. It is primarily achieved by declaring class fields as `private` and providing `public` getter and setter methods to access and modify their values. The primary benefit is data protection and code maintainability.
 
-**2.2.2 Inheritance**
+### **2.2.2 Inheritance**
 
 Inheritance is a mechanism wherein a new class derives properties and behaviors (fields and methods) from an existing class, promoting code reuse and establishing a natural hierarchy.
 
@@ -48,7 +48,7 @@ Inheritance is a mechanism wherein a new class derives properties and behaviors 
 * Will Java support hierarchical inheritance? Yes. Hierarchical inheritance is when multiple subclasses inherit from a single superclass. Java fully supports this. For example, `Dog`, `Cat`, and `Cow` classes could all inherit from a single `Animal` class.
 * Does Java support multiple inheritance? Java does not support multiple inheritance with classes. This means a class cannot extend more than one other class. This decision was made to avoid the "Diamond Problem," which leads to ambiguity when a class inherits methods with the same signature from two different superclasses. However, Java achieves a form of multiple inheritance through interfaces, as a class can implement multiple interfaces.
 
-**2.2.3 Polymorphism**
+### **2.2.3 Polymorphism**
 
 Polymorphism, which means "many forms," allows objects of different classes to be treated as objects of a common superclass, enabling methods to perform different actions depending on the object that invokes them.
 
@@ -107,7 +107,7 @@ class Dog extends Animal {
 
 * What is operator overloading? Operator overloading is a feature where operators like `+`, `-`, `*`, etc., can be given user-defined meanings for user-defined data types (classes). C++ supports operator overloading, but Java does not support operator overloading (with the exception of the `+` operator being overloaded for string concatenation). The designers of Java chose to omit it to simplify the language and avoid potential confusion.
 
-**2.2.4 Abstraction**
+### **2.2.4 Abstraction**
 
 Abstraction involves hiding complex implementation details and exposing only the essential features of an object, simplifying interaction and reducing the impact of changes.
 
@@ -122,7 +122,7 @@ Abstraction involves hiding complex implementation details and exposing only the
 
 With a theoretical understanding of these pillars, we can examine the practical constructs used to implement them: classes and objects.
 
-#### 2.3 Java Building Blocks: Classes, Objects, and Methods
+## 2.3 Java Building Blocks: Classes, Objects, and Methods
 
 Classes and objects are the primary building blocks in Java and object-oriented programming. A class can be thought of as a blueprint for creating objects, defining their properties (fields) and behaviors (methods). An object is a specific instance of a class. Constructors are special methods used to initialize new objects.
 
@@ -150,7 +150,7 @@ Classes and objects are the primary building blocks in Java and object-oriented 
 
 To properly define these building blocks, Java provides keywords and modifiers that control their behavior and visibility.
 
-#### 2.4 Key Java Keywords and Modifiers
+## 2.4 Key Java Keywords and Modifiers
 
 Java uses a specific set of keywords and access modifiers to control the behavior, scope, and accessibility of classes, methods, and variables. These tools are crucial for implementing OOPS principles like encapsulation by defining clear boundaries, as well as for creating class-level members (`static`) and defining unchangeable constants (`final`).
 
@@ -181,7 +181,7 @@ Java uses a specific set of keywords and access modifiers to control the behavio
 
 Beyond these core components, building robust applications requires handling more advanced scenarios, such as defining contracts with interfaces and managing runtime errors.
 
-#### 2.5 Advanced Concepts: Interfaces, Packages, and Exception Handling
+## 2.5 Advanced Concepts: Interfaces, Packages, and Exception Handling
 
 Interfaces, packages, and exception handling are essential concepts for building large-scale, resilient Java applications. Interfaces provide a mechanism to achieve true abstraction and define contracts for classes. Packages help organize and group related classes and interfaces. Exception handling provides a robust mechanism for managing runtime errors gracefully, preventing program crashes.
 
