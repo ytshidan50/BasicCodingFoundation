@@ -2,7 +2,7 @@
 icon: blanket
 ---
 
-# Theory Part
+# Theory of C programming and basics
 
 #### Part 1: C Programming Fundamentals
 
@@ -13,7 +13,8 @@ Understanding a programming language's core identity and its compilation process
 * What is C / What is C programming? C is a powerful, general-purpose, procedural programming language developed in the early 1970s by Dennis Ritchie at Bell Labs. It's considered a mid-level language because it combines features of high-level languages (offering abstraction and readability) with the functionality of low-level assembly languages (allowing for direct memory manipulation). Its efficiency, performance, and flexibility have made it a cornerstone of software development for decades.
 * What is a compiler? A compiler is a special program that translates source code written in a high-level programming language (like C or Java) into a lower-level language, typically machine code or object code, that a computer's processor can directly understand and execute. This translation process is done all at once, creating a standalone executable file.
 * What is an interpreter? An interpreter is another type of program that translates and executes source code. Unlike a compiler, an interpreter reads the source code line by line, translating and executing each line immediately. It does not produce a separate executable file.
-* What is the difference between a compiler and an interpreter? The primary difference lies in how they process code:
+
+### 1.1.2 Difference between Compiler and Interpreter
 
 | Feature           | Compiler                                                               | Interpreter                                                               |
 | ----------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------- |

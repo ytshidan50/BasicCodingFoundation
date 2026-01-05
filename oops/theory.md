@@ -2,7 +2,7 @@
 icon: blanket
 ---
 
-# Theory Part
+# Theory of Java programming and OOPS Concepts
 
 #### Part 2: Object-Oriented Programming (OOPS) with Java
 
@@ -66,8 +66,6 @@ Polymorphism, which means "many forms," allows objects of different classes to b
 | Relationship | Not related to inheritance.                                                  | Directly related to inheritance; can only happen in a subclass.                      |
 | Polymorphism | Example of compile-time polymorphism.                                        | Example of run-time polymorphism.                                                    |
 
-````
-**Example Code:**
 ```java
 // Method Overloading (Compile-time Polymorphism)
 class Calculator {
@@ -93,7 +91,6 @@ class Dog extends Animal {
     }
 }
 ```
-````
 
 * What is the difference between compile-time polymorphism and run-time polymorphism?
 
@@ -129,17 +126,6 @@ Classes and objects are the primary building blocks in Java and object-oriented 
 * What are classes and objects?
   * Class: A class is a blueprint or template from which objects are created. It defines a set of properties (fields) and behaviors (methods) that are common to all objects of that type. For example, a `Car` class would define properties like `color` and `speed`, and methods like `startEngine()` and `accelerate()`.
   * Object: An object is an instance of a class. It is a real-world entity that has state (values for its fields) and behavior (its methods). For example, `myBlueToyota` could be an object of the `Car` class with its `color` field set to "blue". You can create many objects from a single class.
-* What is a constructor? A constructor is a special method in a class that is called when an object of that class is created. Its primary purpose is to initialize the new object's state (i.e., set initial values for its fields). A constructor must have the same name as the class and does not have a return type, not even `void`.
-* What is a default constructor? If you do not explicitly define any constructor in a class, the Java compiler automatically provides a default constructor. This is a no-argument constructor that calls the superclass's no-argument constructor and initializes instance variables to their default values (0 for numbers, `null` for objects, `false` for booleans).
-* What is the difference between a constructor and a method?
-
-| Feature     | Constructor                                                          | Method                                  |
-| ----------- | -------------------------------------------------------------------- | --------------------------------------- |
-| Purpose     | To initialize an object.                                             | To expose the behavior of an object.    |
-| Name        | Must have the same name as the class.                                | Can have any name (except keywords).    |
-| Return Type | Has no return type, not even `void`.                                 | Must have a return type (or `void`).    |
-| Invocation  | Called implicitly when an object is created using the `new` keyword. | Called explicitly by name on an object. |
-
 * What is the difference between a function and a method? In the context of Java, these terms are closely related. A method is a function that is associated with a class or an object. The term "function" is more general and is often used in procedural programming (like C), where functions can exist independently of any class. Since all executable code in Java must reside within a class, we almost exclusively use the term method.
 * What is the `main` method? The `public static void main(String[] args)` method is the entry point for any Java application. The JVM starts the execution of a Java program by invoking this specific method.
   * `public`: It is accessible from anywhere.
@@ -147,6 +133,48 @@ Classes and objects are the primary building blocks in Java and object-oriented 
   * `void`: It does not return any value.
   * `main`: This is the name of the method, fixed by convention.
   * `String[] args`: It accepts an array of strings as command-line arguments.
+
+### 2.3.2 Constructor and Types
+
+In Java, a **constructor** is a block of code similar to a method that is called when an **instance(Object) of a class is created**. Its primary purpose is to **initialize the object** and allocate memory at the time of its creation. Unlike regular methods, a constructor must have the **same name as the class** and has **no explicit return type**, not even `void`.
+
+#### **1. Default Constructor (No-Arg Constructor)**
+
+A constructor is considered a **default constructor** when it does **not have any parameters**.
+
+* **Automatic Generation:** If a programmer does not define any constructor in a class, the **Java compiler automatically creates a default constructor**.
+* **Purpose:** Its main role is to provide **default values** to the object’s attributes, such as `0` for integers or `null` for strings, depending on the data type.
+
+#### **2. Parameterized Constructor**
+
+A **parameterized constructor** is one that includes a **specific number of parameters**.
+
+* **Purpose:** It is used to provide **different values to distinct objects** at the moment they are created.
+* **Flexibility:** This allows a single class to produce multiple objects with unique initial states by passing specific data through the constructor's arguments.
+
+#### **3. Copy Constructor**
+
+The sources specify that while Java does not have a formal "copy constructor" built into the language (unlike C++), the functionality is achieved through specific implementation.
+
+* **Implementation:** It is a constructor used to **copy the values of one object into another**.
+* **Mechanism:** This is done by defining a constructor that takes an **object of the same class as a parameter**. It then assigns the values from the existing object's attributes to the new object's attributes.
+
+***
+
+**Analogy for Understanding:** Imagine you are ordering a new smartphone.
+
+* A **Default Constructor** is like buying the "standard model" that comes with the factory default wallpaper and settings.
+* A **Parameterized Constructor** is like "custom ordering" your phone, where you choose the specific colour and storage capacity at the time of purchase.
+* A **Copy Constructor** is like using a "transfer tool" to set up your new phone so that it has the exact same settings and data as your old one.
+
+### 2.3.3 Difference between constructor and method
+
+| Feature     | Constructor                                                          | Method                                  |
+| ----------- | -------------------------------------------------------------------- | --------------------------------------- |
+| Purpose     | To initialize an object.                                             | To expose the behavior of an object.    |
+| Name        | Must have the same name as the class.                                | Can have any name (except keywords).    |
+| Return Type | Has no return type, not even `void`.                                 | Must have a return type (or `void`).    |
+| Invocation  | Called implicitly when an object is created using the `new` keyword. | Called explicitly by name on an object. |
 
 To properly define these building blocks, Java provides keywords and modifiers that control their behavior and visibility.
 
