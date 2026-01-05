@@ -52,7 +52,10 @@ If this project helped you:
 - ❤️ Support via GitHub Sponsors
 
 ### 💖 Sponsor
-
+<p>
+<iframe src="https://github.com/sponsors/ytshidan50/card" title="Sponsor ytshidan50" height="225" width="600" style="border: 0;"></iframe>
+<iframe src="https://github.com/sponsors/ytshidan50/button" title="Sponsor ytshidan50" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
+</p>
 [![Sponsor](https://img.shields.io/badge/Sponsor-ytshidan50-pink?style=flat&logo=github)](https://github.com/sponsors/ytshidan50)
 
 Your support helps keep this project growing and accessible to everyone.
