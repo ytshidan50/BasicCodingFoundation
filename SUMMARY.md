@@ -19,6 +19,7 @@
 
 ## Resources
 
+* [Basic Coding Tutorial | Brototype](https://youtube.com/playlist?list=PLqKwaXRrUx54aSKlHDDSaQ-GfaybyGAgM\&si=p2UIG0rSIwGTZe5x)
 * [OOPS Theory and Concepts](https://drive.google.com/file/d/15x4mAOdvaSajq5vZTMHWlEvWNwt2BS21/view?usp=sharing)
 * [OOPS Theory Questions](https://drive.google.com/file/d/1XwazDXS8Sv9eDun01CQ6LaQaJHqZa44m/view?usp=sharing)
 * [C Theory Questions](https://drive.google.com/file/d/1DI6Z1z4qhTP9GxHApl3Fcz238tYpSq9Z/view?usp=sharing)

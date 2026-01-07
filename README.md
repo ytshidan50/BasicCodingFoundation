@@ -1,64 +1,33 @@
-# Welcome to the Learning Hub
+# Welcome
 
-👋 **Hey Tech Enthusiasts! I’m [Shidan V](https://shidan.magmc.in/)**
+👋 **Hey Tech Enthusiasts! I’m** [**Shidan V**](https://shidan.magmc.in/)
 
 This is an open-source learning project created to help **beginners and future developers** take their first confident steps into the world of programming.
 
-The goal of this repository is simple:  
+The goal of this repository is simple:\
 👉 **Build strong fundamentals with clear, beginner-friendly content.**
 
----
+***
+
+## Resources:
+
+* If you didn't  touch any programming language before, Head over to the [Basic Coding Tutorial](https://youtube.com/playlist?list=PLqKwaXRrUx54aSKlHDDSaQ-GfaybyGAgM\&si=p2UIG0rSIwGTZe5x).&#x20;
+* If you are facing any trouble or struggling with any area on this guide, you can use the appropriate documentation or tutorials under the [Broken link](/broken/pages/nxudR5wAULs09042AdQl "mention") section.
+
+***
 
 ## 📘 What You’ll Learn
 
 This project currently focuses on two core programming areas:
 
-- **C Programming**
-  - Basics, syntax, logic building
-  - Control statements, functions, arrays, pointers
-
-- **Java Programming**
-  - Core Java concepts
-  - Object-Oriented Programming (OOPS)
-  - Real-world examples for better understanding
+* **C Programming**
+  * Basics, syntax, logic building
+  * Control statements, functions, arrays, pointers
+* **Java Programming**
+  * Core Java concepts
+  * Object-Oriented Programming (OOPS)
+  * Real-world examples for better understanding
 
 The content is written in a **simple, structured, and easy-to-understand format**, making it ideal for students and self-learners.
 
----
-
-## 🎯 Who Is This For?
-
-- Beginners starting their coding journey
-- Students learning C or Java
-- Anyone revising programming fundamentals
-- Self-learners preparing for technical interviews
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!  
-If you’d like to improve existing content or add new learning material, please check the **CONTRIBUTING.md** file before submitting a pull request.
-
----
-
-## ⭐ Support the Project
-
-If this project helped you:
-
-- ⭐ Star the repository
-- 🔁 Share it with your friends
-- 💡 Contribute learning content
-- ❤️ Support via GitHub Sponsors
-
-### 💖 Sponsor
-
-[![Sponsor](https://img.shields.io/badge/Sponsor-ytshidan50-pink?style=flat&logo=github)](https://github.com/sponsors/ytshidan50)
-
-Your support helps keep this project growing and accessible to everyone.
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
+***
