@@ -12,7 +12,7 @@ The goal of this repository is simple:\
 ## Resources:
 
 * If you didn't  touch any programming language before, Head over to the [Basic Coding Tutorial](https://youtube.com/playlist?list=PLqKwaXRrUx54aSKlHDDSaQ-GfaybyGAgM\&si=p2UIG0rSIwGTZe5x).&#x20;
-* If you are facing any trouble or struggling with any area on this guide, you can use the appropriate documentation or tutorials under the [Broken link](/broken/pages/nxudR5wAULs09042AdQl "mention") section.
+* If you are facing any trouble or struggling with any area on this guide, you can use the appropriate documentation or tutorials under the **`Resources`** section.
 
 ***
 
